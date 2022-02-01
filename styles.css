@@ -8,7 +8,20 @@ table {
     background-color: #ffffff;
 }
 
+#nav-icon {
+    max-width: 80px;
+    max-height: 80px;
+    padding-right: 100px;
+    position: fixed; 
+    top: 8px;
+    left: 10px;
+}
+
+[href] {
+    color: #c7fdff
+}
 [href]:hover {
+
     color:rgb(96, 255, 123)
 }
 
@@ -16,6 +29,7 @@ ul.directory {
     text-align: left;
     list-style-position: inside;
     margin-left: 550px;
+    list-style-type: square;
 }
 
 td {
@@ -27,27 +41,34 @@ td {
 h1, h2, .directory{
     text-align: center;
     font-family: helvetica;
+    
 }
 h1 {
-    color: rgb(163, 74, 47);
+    color: rgb(58, 58, 58);
+    background-color: #f1f1f2;
+    padding: 30px;
+    margin: 0;
 }
 
 h2 {
-    color: rgb(163, 74, 47);
+    color: #ffffff
 }
 
 aside {
     text-align: center;
     font-family: Georgia;
     font-size: smaller;
+    color: #ffffff;
+    padding-top: 100px;
 }
 
+
 thead {
-    background-color: seagreen;
+    background-color: #f1f1f2;
     padding-top: 15px;
     text-align: left;
     padding-left: 5px;
-    color: white;
+    color: #000000;
     text-transform: capitalize;
 }
 tr{
@@ -67,10 +88,62 @@ tr:nth-of-type(even) {
 
 }
 tr:last-of-type {
-    border-bottom: 2px solid seagreen;
+    border-bottom: 2px solid #9c9c9c;
 }
 
 body {
-    background-color: #eeeedf ;
+    background-image: url(./space\ picture.jpeg);
+    background-repeat: repeat;
+    padding: 0%;
+    margin: 0%;
 }
 
+#namedrop {
+    position: fixed;
+    top: 25px;
+    right: 20px;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    margin-top: 0;
+    top: 0;
+}
+
+footer {
+    background-color: #f1f1f2 ;
+    margin: 0 auto;
+    padding-bottom: 2rem;
+    position: relative;
+    bottom: 0;
+}
+
+.contact-me{
+    text-align: center;
+}
+.contact-list li {
+    display: inline;
+    margin-right: 40px;
+    margin-left: 40px;
+}
+
+
+#coloradoselfie {
+    max-width: 250px;
+    max-height: 250px;
+    position:absolute;
+    right: 0;
+    
+}
+
+ 
+#github-link [href] {
+    color:black;
+    text-decoration: none;
+   
+}
+
+h3 {
+    padding-top: 20px;
+}

@@ -1,76 +1,136 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <link rel="stylesheet" href="./styles.css">
-        <title> CheatSheet</title>
-    </head>
-    <body>
-        <h1>Common CSS Properties</h1>
-        <aside id="intro">
-          <p><em>This is a simple documentation of CSS properties for personal use.<br> The list will be updated over time.<br>The second purpose of this page is to strengthen my CSS and HTML skills.</em></p>
-        </aside>
-        <h2>Directory</h2>
-          <ul class="directory">
-              <li><a href="#font-props">Font Properties</a></li>
-              <li><a href="#elem-appearence-props">Element Appearence Properties</a></li>
-          </ul>
-        <h2 id="font-props">Font Properties</h2>
-            <table class="font-properties">
-                <thead>
-                <tr>
-                    <th scope="col">property</th>
-                    <th scope="col">values</th>
-                    <th scope="col">description</th>
-                </tr>
-                </thead>
-                <tr>
-                    <td class="properties" >font-size</td>
-                    <td class="values">___px</td>
-                    <td>changes size of font</td>
-                </tr>
-                <tr>
-                  <td class="properties" >font-weight</td>
-                  <td class="values"><em>bold</em></td>
-                  <td>changes thickness of font</td>
-              </tr>
-              <tr>
-                  <td class="properties" >font-family</td>
-                  <td class="values">fontName</td>
-                  <td>changes font of typeface</td>
-              </tr>
-          </table>
-            <h2 id="elem-appearence-props">Element Appearence Properties</h2>
-              <table>
-                  <thead>
-                <tr>
-                    <th scope="col">property</th>
-                    <th scope="col">values</th>
-                    <th scope="col">description</th>
-                </tr>
-                  </thead>
-                <tr>
-                    <td class="properties" >color</td>
-                    <td class="values">colorVal</td>
-                    <td>sets color element appears in</td>
-                </tr>
-                <tr>
-                    <td class="properties" >background-color</td>
-                    <td class="values">colorVal</td>
-                    <td>sets color background of element appears in</td>
-                </tr>
-                <tr>
-                    <td class="properties" >opacity</td>
-                    <td class="values">val 0-1</td>
-                    <td>sets transparency of element; 0 transparent; q opaque</td>
-                </tr>
-                <tr>
-                    <td class="properties" >background-image</td>
-                    <td class="values">url("file/path")</td>
-                    <td>sets background of element to image</td>
-                </tr>
-              
 
-              </table>
-    </body>
+<head>
+    <link rel="stylesheet" href="./styles.css">
+    <title> CheatSheet</title>
+</head>
+
+<body>
+    <header>
+        <h1>CSS Properties</h1>
+        <img id="nav-icon" src="./unalome.jpeg" />
+        <p id="namedrop">Created by Jayden Palacios</p>
+    </header>
+    <aside id="intro">
+        <p><em>This is a simple documentation of CSS properties for personal use.<br> The list will be updated over
+                time.<br>The second purpose of this page is to strengthen my CSS and HTML skills.</em></p>
+    </aside>
+    <h2>Directory</h2>
+    <ul class="directory">
+        <li><a href="#font-props">Font Properties</a></li>
+        <li><a href="#elem-appearence-props">Element Appearence Properties</a></li>
+    </ul>
+    <section class="font-props">
+        <h2 id="font-props">Font Properties</h2>
+        <table class="font-properties">
+            <thead>
+                <tr>
+                    <th scope="col">property</th>
+                    <th scope="col">values</th>
+                    <th scope="col">description</th>
+                </tr>
+            </thead>
+            <tr>
+                <td class="properties">font-size</td>
+                <td class="values">___px</td>
+                <td>changes size of font</td>
+            </tr>
+            <tr>
+                <td class="properties">font-weight</td>
+                <td class="values"><em>bold</em></td>
+                <td>changes thickness of font</td>
+            </tr>
+            <tr>
+                <td class="properties">font-family</td>
+                <td class="values">fontName</td>
+                <td>changes font of typeface</td>
+            </tr>
+        </table>
+    </section>
+    <section class="elem-appearence-props">
+        <h2 id="elem-appearence-props">Element Appearence Properties</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th scope="col">property</th>
+                    <th scope="col">values</th>
+                    <th scope="col">description</th>
+                </tr>
+            </thead>
+            <tr>
+                <td class="properties">color</td>
+                <td class="values">colorVal</td>
+                <td>sets color element appears in</td>
+            </tr>
+            <tr>
+                <td class="properties">background-color</td>
+                <td class="values">colorVal</td>
+                <td>sets color background of element appears in</td>
+            </tr>
+            <tr>
+                <td class="properties">opacity</td>
+                <td class="values">val 0-1</td>
+                <td>sets transparency of element; 0 transparent; q opaque</td>
+            </tr>
+            <tr>
+                <td class="properties">background-image</td>
+                <td class="values">url("file/path")</td>
+                <td>sets background of element to image</td>
+            </tr>
+
+
+        </table>
+    </section>
+    <section class="elem-positioning-props">
+        <h2 id="elem-positioning-props">Element Positioning Properties</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th scope="col">property</th>
+                    <th scope="col">values</th>
+                    <th scope="col">description</th>
+                </tr>
+            </thead>
+            <tr>
+                <td class="properties">padding</td>
+                <td class="values">val(px, cm, etc.)</td>
+                <td>changes space btwn element and margin</td>
+            </tr>
+            <tr>
+                <td class="properties">margin</td>
+                <td class="values">val(px, cm, etc.)</td>
+                <td>changes invisble spacing around elements</td>
+            </tr>
+            <tr>
+                <td class="properties">top/left/bottom/right</td>
+                <td class="values">val(px, cm, etc.)</td>
+                <td>sets element position [val] distance from page border</td>
+            </tr>
+            <tr>
+                <td class="properties">background-image</td>
+                <td class="values">url("file/path")</td>
+                <td>sets background of element to image</td>
+            </tr>
+        </table>
+    </section>
+    <footer>
+        <div class="contact-me">
+            <h3>Contact me:</h3>
+            <ul class="contact-list">
+                <li id="email">jaydenpal7@gmail.com</li>
+                <li id="phonenum">210-323-1461</li>
+                <li id="github-link"><a href="https://github.com/JaydenPal" target="_blank">Github Profile:
+                        JaydenPal</a></li>
+            </ul>
+        </div>
+        <div class="image">
+        </div>
+
+
+    </footer>
+
+
+</body>
 
 </html>
