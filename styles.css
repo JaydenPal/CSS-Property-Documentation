@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: helvetica;
+}
 table {
     text-align: center;
     margin-left: auto;
@@ -17,8 +22,12 @@ table {
     left: 10px;
 }
 
+.directory > li{
+    margin-bottom: 5px;
+}
+
 [href] {
-    color: #c7fdff
+    color: #c7fdff;
 }
 [href]:hover {
 
@@ -113,37 +122,82 @@ header {
 
 footer {
     background-color: #f1f1f2 ;
-    margin: 0 auto;
+    display: inline-block;
+    position: absolute;
+    width: 100%;
     padding-bottom: 2rem;
-    position: relative;
-    bottom: 0;
+    overflow: scroll;
+    height: 250px;
+    
 }
 
 .contact-me{
     text-align: center;
 }
-.contact-list li {
-    display: inline;
+ul.contact-list {
+    display: inline-block;
+    position: absolute;
     margin-right: 40px;
     margin-left: 40px;
+    bottom: 40px;
+    left: 175px;
+    list-style-type: none;
 }
 
 
 #coloradoselfie {
+    height: 200px;
+    width: 200px;
     max-width: 250px;
     max-height: 250px;
+    display: inline-block;
     position:absolute;
-    right: 0;
+    bottom: 35px;
+    left: 5px;
+    border-radius: 50%;
+    
     
 }
 
  
 #github-link [href] {
-    color:black;
+    color:#6e6e6e;
     text-decoration: none;
    
 }
 
 h3 {
-    padding-top: 20px;
+    padding: 20px 30px;
+    position: absolute;
+    left: 185px;
+    font-size: 25px;
+}
+
+.contact-me > ul > li {
+    font-size: 1.25em;
+    text-align: left;
+    margin: 30px 0;
+    color: #6e6e6e;
+}
+
+#social-media {
+    left: 550px;
+}
+
+.social-media-list {
+    display: inline-block;
+    position: absolute;
+    margin-right: 40px;
+    margin-left: 40px;
+    bottom: 40px;
+    left: 540px;
+    list-style-type: none;
+}
+
+.social-media-list > li {
+    font-size: 1.25em;
+    text-align: left;
+    margin: 30px 0;
+    color: #6e6e6e;
+    
 }
