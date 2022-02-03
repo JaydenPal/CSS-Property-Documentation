@@ -20,9 +20,6 @@ table {
     left: 10px;
 }
 
-.directory > li{
-    margin: 5px auto;
-}
 
 [href] {
     color: #c7fdff;
@@ -32,11 +29,11 @@ table {
     color:rgb(96, 255, 123)
 }
 
-ul.directory {
-    text-align: left;
-    list-style-position: inside;
-    margin-left: 550px;
+ul.directory{
+    text-align: center;
     list-style-type: square;
+    left: auto;
+    right: auto;
 }
 
 td {
@@ -127,7 +124,7 @@ footer {
     width: 100%;
     padding-bottom: 2rem;
     height: 250px;
-    
+
     
 }
 
