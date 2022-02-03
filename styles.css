@@ -5,7 +5,7 @@
 }
 table {
     margin: 50px auto;
-    width: 650px;
+    width: 50%;
     max-width: 80%;
     border-collapse: collapse;
     background-color: #ffffff;
@@ -103,13 +103,14 @@ body {
     background-repeat: repeat;
     padding: 0%;
     margin: 0%;
+    width: 100%;
 }
 
 #namedrop {
     position: fixed;
-    top: 25px;
+    top: 40px;
     right: 20px;
-    margin: auto;
+    width: 15%;
 }
 
 header {
@@ -126,6 +127,7 @@ footer {
     width: 100%;
     padding-bottom: 2rem;
     height: 250px;
+    
     
 }
 
