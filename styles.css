@@ -37,8 +37,7 @@ ul.directory{
 }
 
 td {
-   padding-top: 10px;
-   padding-bottom: 10px;
+   padding: 10px 5px;
     text-align: left;
 }
 
@@ -74,6 +73,7 @@ thead {
     padding-left: 5px;
     color: #000000;
     text-transform: capitalize;
+    margin-left: 5px;
 }
 tr{
     border-bottom: 1px solid #c2c2c2;
@@ -123,36 +123,34 @@ footer {
     position: absolute;
     width: 100%;
     padding-bottom: 2rem;
-    height: 250px;
+    max-height: 30%;
 
     
 }
 
 .contact-me{
-    text-align: center;
-}
-ul.contact-list {
+    text-align: left;
     display: inline-block;
-    position: absolute;
-    margin-right: 40px;
-    margin-left: 40px;
     bottom: 40px;
     left: 175px;
+}
+ul.contact-list {
+    margin-right: 40px;
+    margin-left: 40px;
     list-style-type: none;
 }
 
-
-#coloradoselfie {
-    height: 200px;
-    max-width: 15%;
-    max-height: 200px;
-    display: inline-block;
-    position:absolute;
-    bottom: 35px;
-    left: 5px;
-    border-radius: 50%;
+.image {
+    display: inline;
+    margin: 0 10px;
 }
 
+#coloradoselfie {
+    max-width: 12%;
+    max-height: 12%;
+    border-radius: 5px;
+    margin-top: 10px;
+}
  
 #github-link [href] {
     color:#6e6e6e;
@@ -161,9 +159,7 @@ ul.contact-list {
 }
 
 h3 {
-    padding: 20px 30px;
-    position: absolute;
-    left: 185px;
+    padding: 10px 30px;
     font-size: 25px;
 }
 
@@ -194,4 +190,199 @@ h3 {
     margin: 30px 0;
     color: #6e6e6e;
     
+}
+
+@media only screen
+and (max-width : 600px) {
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: helvetica;
+    }
+    table {
+        margin: 50px auto;
+        min-width: 50%;
+        max-width: 80%;
+        border-collapse: collapse;
+        background-color: #ffffff;
+    }
+    
+    #nav-icon {
+        max-width: 80px;
+        max-height: 80px;
+        padding-right: 100px;
+        position: fixed; 
+        top: 8px;
+        left: 10px;
+    }
+    
+    
+    [href] {
+        color: #c7fdff;
+    }
+    [href]:hover {
+    
+        color:rgb(96, 255, 123)
+    }
+    
+    ul.directory{
+        text-align: center;
+        list-style-type: square;
+        left: auto;
+        right: auto;
+    }
+    
+    td {
+       padding: 10px 5px;
+        text-align: left;
+    }
+    
+    h1, h2, .directory{
+        text-align: center;
+        font-family: helvetica;
+        
+    }
+    h1 {
+        color: rgb(58, 58, 58);
+        background-color: #f1f1f2;
+        padding: 30px;
+        margin: 0;
+    }
+    
+    h2 {
+        color: #ffffff
+    }
+    
+    aside {
+        text-align: center;
+        font-family: Georgia;
+        font-size: smaller;
+        color: #ffffff;
+        padding-top: 100px;
+    }
+    
+    
+    thead {
+        background-color: #f1f1f2;
+        padding-top: 15px;
+        text-align: left;
+        padding-left: 5px;
+        color: #000000;
+        text-transform: capitalize;
+        margin-left: 5px;
+    }
+    tr{
+        border-bottom: 1px solid #c2c2c2;
+    }
+    
+    .values {
+        color: rgb(163, 74, 47)
+    }
+    
+    .properties {
+        color:rgb(112, 197, 236)
+    }
+    
+    tr:nth-of-type(even) {
+        background-color: #f3f3f3;
+    
+    }
+    tr:last-of-type {
+        border-bottom: 2px solid #9c9c9c;
+    }
+    
+    body {
+        background-image: url(./space\ picture.jpeg);
+        background-repeat: repeat;
+        padding: 0%;
+        margin: 0%;
+        width: 100%;
+    }
+    
+    #namedrop {
+        display: none;
+    }
+    
+    header {
+        position: fixed;
+        width: 100%;
+        margin-top: 0;
+        top: 0;
+    }
+    
+    footer {
+        background-color: #f1f1f2 ;
+        display: inline-block;
+        position: absolute;
+        width: 100%;
+        padding-bottom: 2rem;
+        max-height: 30%;
+    
+        
+    }
+    
+    .contact-me{
+        text-align: left;
+        display: inline-block;
+        bottom:0;
+        left: 0;
+    }
+    ul.contact-list {
+        margin-right: 40px;
+        margin-left: 40px;
+        list-style-type: none;
+    }
+    
+    .image {
+        display: inline;
+        margin: 0 10px;
+    }
+    
+    #coloradoselfie {
+        max-width: 20%;
+        max-height: 20%;
+        border-radius: 5px;
+        margin-top: 10px;
+        
+    }
+     
+    #github-link [href] {
+        color:#6e6e6e;
+        text-decoration: none;
+       
+    }
+    
+    h3 {
+        padding: 10px 30px;
+        font-size: 25px;
+    }
+    
+    .contact-me > ul > li {
+        font-size: 1.25em;
+        text-align: left;
+        margin: 30px 0;
+        color: #6e6e6e;
+    }
+    
+    #social-media {
+        left: 550px;
+    }
+    
+    .social-media-list {
+        display: inline-block;
+        position: absolute;
+        margin-right: 40px;
+        margin-left: 40px;
+        bottom: 40px;
+        left: 540px;
+        list-style-type: none;
+    }
+    
+    .social-media-list > li {
+        font-size: 1.25em;
+        text-align: left;
+        margin: 30px 0;
+        color: #6e6e6e;
+        
+    }
 }
